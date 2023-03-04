@@ -14,6 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+// Load Constants.
+require_once __DIR__ . '/config/constants.php';
+
 /**
  * Process Uninstall.
  *
